@@ -1,0 +1,48 @@
+body {
+    background: rgb(82, 166, 184);
+    background: linear-gradient(288deg, rgba(82, 166, 184, 1) 57%, rgba(135, 251, 250, 1) 93%);
+}
+
+.container {
+    width: 70%;
+    border: none;
+    margin: 250px auto;
+    text-align: center;
+}
+
+.titleConvert {
+    text-align: center;
+    font-family: sans-serif;
+    color: beige;
+    font-weight: bold;
+}
+
+.temp {
+    border: none;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.convertBtn,
+.resetBtn,
+.changeBtn {
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    background-color: #0288D1;
+    color: rgb(132, 255, 255);
+    border: 1px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.result {
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
